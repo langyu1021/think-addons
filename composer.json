@@ -1,0 +1,27 @@
+{
+    "name": "langyu1021/think-addons",
+    "description": "addons package for mscms",
+    "homepage": "https://github.com/langyu1021/think-addons",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "langyu1021",
+            "email": "814683619@qq.com"
+        }
+    ],
+    "support": {
+        "issues": "https://gitee.com/langyu1021/think-addons"
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "nelexa/zip": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\": "src/"
+        },
+        "files": [
+            "src/common.php"
+        ]
+    }
+}
